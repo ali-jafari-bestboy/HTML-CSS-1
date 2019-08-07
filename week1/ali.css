@@ -1,0 +1,10 @@
+css
+#name {background-color: blue; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 48px}
+body {background-color: rgb(113, 224, 187); font-size: 40px; font-style: unset;}
+.info {color: rgb(red, rgb(43, 46, 63), blue); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+#ul1 {background-color: black; color: blanchedalmond} 
+h3 {color: rgb(red, rgb(5, 22, 5), blue)}
+.p {color: rgb(red, rgb(45, 49, 45), blue)}
+#ali{color: rgb(red, rgb(27, 54, 77), blue); font-size:50px;}
+img{ width:340px;
+    border:34px ridge red;}

@@ -1,0 +1,43 @@
+section {
+    background-color: rgb(194, 160, 50);
+}
+
+
+#grid-flex {
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content:  space-around ;
+    list-style-type: none;
+}
+
+.grid-item{
+    width: 40%;
+
+}
+.grid-item:first-child {
+ width: 80%;
+}
+
+
+
+img{
+ width: 70%;
+}
+
+@media (min-width: 500px) {
+    .grid-item {
+        width: 30%;
+    }
+}
+.grid-item:first-child {
+    width: 50%;
+   }
+
+@media (min-width: 800px) {
+    .grid-item {
+        width: 20%;
+    }
+}
+
+
+
