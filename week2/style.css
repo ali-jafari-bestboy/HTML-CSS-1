@@ -1,5 +1,5 @@
 section {
-    background-color: rgb(194, 160, 50);
+    background-color: blueviolet;
 }
 
 
@@ -8,11 +8,24 @@ section {
     flex-wrap:  wrap;
     justify-content:  space-around ;
     list-style-type: none;
+    border:6px solid black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7R2dubFF-8dOdxRJFriXCUHAI4Qqxu7UBqeOX_EQaIvJbYyl3iw" );
+  color:orangered;
+    background-repeat:repeat;
+    
 }
 
 .grid-item{
-    width: 40%;
 
+    width: 40%;
+    border:6px solid black;
+    margin: 6px;
+    background: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScdcp0GLtzHNpaCE0etOmBODkSca3zDriJhshHa2PcP2qInJ3f);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .grid-item:first-child {
  width: 80%;
@@ -22,21 +35,31 @@ section {
 
 img{
  width: 70%;
+ background-color: whitesmoke;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 @media (min-width: 500px) {
     .grid-item {
-        width: 30%;
+        width: 26%;
     }
-}
-.grid-item:first-child {
-    width: 50%;
+    .grid-item:first-child {
+    width: 45%;
    }
+   .grid-item:nth-of-type(2) {
+    width: 45%;
+  }
+}
+
 
 @media (min-width: 800px) {
     .grid-item {
         width: 20%;
     }
+    .grid-item:nth-of-type(2) {
+        width: 20%;
+      }
 }
 
 
